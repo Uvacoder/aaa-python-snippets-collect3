@@ -30,7 +30,7 @@ jobs:
           pytest --verbose --html report/index.html
 
       - name: Upload Pytest Report
-        uses: actions/upload-artifact@v3.1.1
+        uses: actions/upload-artifact@v3.1.2
         with:
           name: Report File(s)
           path: report/
